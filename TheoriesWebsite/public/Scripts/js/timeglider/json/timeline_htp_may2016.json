@@ -1,0 +1,151 @@
+[
+    {
+	"id": "theoryTimeline",
+	"title": "Theory Timeline",
+	"focus_date": "today",
+	"initial_zoom": "45",
+	"color": "#82530d",
+	"size_importance": "true",
+	"events":
+	[
+	
+	    {
+		"id": "1393",
+		"title": "Health Belief Model",
+		"startdate": "1997-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Readiness for Implementation, Behavioral beliefs, Self-efficacy (HBT)<br \/><br \/><strong>Description<\/strong></br />The Health Belief Model (HBM) was developed in the 1950s as an explanation for why medical screening programs offered by the U.S. Public Health Service, such as the one for tuberculosis, were not successful. The main concept of this model is that health behavior is determined by personal beliefs or perceptions about a disease and the strategies available to decrease its occurrence. Personal beliefs are influenced by many intrapersonal factors that affect health behavior.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	
+	    {
+		"id": "1394",
+		"title": "Attachment Theory",
+		"startdate": "1978-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Albumin Concentration, Acceptability, Active Transport<br \/><br \/><strong>Description<\/strong></br />Captains Meriwether Lewis and William Clark enter area that would become Idaho at Lemhi Pass.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	
+	    {
+		"id": "1395",
+		"title": "Social Cognitive Theory",
+		"startdate": "1986-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Albumin Concentration, Acceptability, Active Transport<br \/><br \/><strong>Description<\/strong></br />Kullyspell House, first non-native establishment in Northwest, is erected near Lake Pend Oreille.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	
+	    {
+		"id": "1396",
+		"title": "The Transtheoretical Model (TTM)",
+		"startdate": "1982-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Albumin Concentration, Acceptability, Active Transport<br \/><br \/><strong>Description<\/strong></br />Fort Henry, first American fur post west of Rocky Mountains, established near St. Anthony.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	
+	    {
+		"id": "1397",
+		"title": "Theory of Planned Behavior",
+		"startdate": "2006-07-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Albumin Concentration, Acceptability, Active Transport<br \/><br \/><strong>Description<\/strong></br />Astorian parties under Wilson Price Hunt explore portions of the future Oregon Trail in Idaho.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	
+	    {
+		"id": "1398",
+		"title": "Reasoned Action & Planned Behavior Theory",
+		"startdate": "1980-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Knowledge/behavioral control, Self-efficacy/perceived behavioral control, subjective norms, intentions<br \/><br \/><strong>Description<\/strong></br />Theory of Reasoned Action suggests that a person's behavior is determined by his/her intention to perform the behavior and that this intention is, in turn, a function of his/her attitude toward the behavior and his/her subjective norm. The best predictor of behavior is intention. Intention is the cognitive representation of a person's readiness to perform a given behavior, and it is considered to be the immediate antecedent of behavior.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	
+	    {
+		"id": "1399",
+		"title": "Classical Conditioning",
+		"startdate": "1913-07-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Albumin Concentration, Acceptability, Active Transport<br \/><br \/><strong>Description<\/strong></br />Donald Mackenzie holds a rendezvous with Native Americans on the Boise River. Adams-Onis treaty between Spain and the United States establishes Idaho's future southern border on the 42nd Parallel. Mackenzie attempts to set up a post on the Boise River.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	
+	    {
+		"id": "1500",
+		"title": "Integrated Behavior Model",
+		"startdate": "1980-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Albumin Concentration, Acceptability, Active Transport<br \/><br \/><strong>Description<\/strong></br />Donald Mackenzie holds a rendezvous with Native Americans on the Boise River. Adams-Onis treaty between Spain and the United States establishes Idaho's future southern border on the 42nd Parallel. Mackenzie attempts to set up a post on the Boise River.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	    {
+		"id": "1501",
+		"title": "Health action process approach",
+		"startdate": "2005-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Albumin Concentration, Acceptability, Active Transport<br \/><br \/><strong>Description<\/strong></br />Donald Mackenzie holds a rendezvous with Native Americans on the Boise River. Adams-Onis treaty between Spain and the United States establishes Idaho's future southern border on the 42nd Parallel. Mackenzie attempts to set up a post on the Boise River.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	    {
+		"id": "1502",
+		"title": "Relapse prevention",
+		"startdate": "1981-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Skills training, Cognitive reframing, Lifestyle rebalancing<br \/><br \/><strong>Description<\/strong></br />Persons who are beginning regular physical activity programs might be aided by interventions that help them anticipate barriers or factors that can contribute to relapse.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	    {
+		"id": "1503",
+		"title": "Information processing paradigm",
+		"startdate": "1973-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Exposure; Attention, Liking/interest, Comprehension, Skill acquisition<br \/><br \/><strong>Description<\/strong></br />Persons who are beginning regular physical activity programs might be aided by interventions that help them anticipate barriers or factors that can contribute to relapse.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	    {
+		"id": "1503",
+		"title": "Relapse prevention",
+		"startdate": "1975-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Albumin Concentration, Acceptability, Active Transport<br \/><br \/><strong>Description<\/strong></br />Donald Mackenzie holds a rendezvous with Native Americans on the Boise River. Adams-Onis treaty between Spain and the United States establishes Idaho's future southern border on the 42nd Parallel. Mackenzie attempts to set up a post on the Boise River.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    },
+	    {
+		"id": "1400",
+		"title": "The Precaution Adoption Process Model",
+		"startdate": "2008-01-01 12:00",
+		"date_limit": "ye",
+		"description": "<strong>Key Constructs<\/strong><br \/>Albumin Concentration, Acceptability, Active Transport<br \/><br \/><strong>Description<\/strong></br />Mackenzie negotiates a peace treaty with the Shoshone on Little Lost River and explores most of what would become Goodale's Cutoff.",
+		"icon": "plus_green.png",
+		"importance": "45",
+		"link":[{"url":"http://www.westat.com", "label":"View Details"}]
+	    }
+	]
+    }
+]

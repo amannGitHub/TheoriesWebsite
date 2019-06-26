@@ -1,0 +1,219 @@
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/public/Site.master" AutoEventWireup="false" CodeFile="Home_new.aspx.vb" Inherits="public_Default" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="cphMasterTitle" Runat="Server">
+    <asp:literal ID="ltltitle" runat="server">Home</asp:literal>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="head" runat="server">
+    <style>
+        h3{
+            margin-bottom: 10px;
+            margin-top: 15px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        h2.block-title {
+            margin-bottom: 0px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
+     <section id="w-highlight" class="region">
+          <div class="region-inner clearfix">
+	    
+	    <div id="welcome" class="block four">
+              <div class="block-inner">
+		<h1 id="page-title" class="element-invisible">Welcome Message</h1>
+		<div class="block-content">
+		  <!-- replace with the real welcome content -->
+		  <p>Welcome to the Health Behavior Theories Portal.
+		    The Behavioral Research Program (BRP) aim to
+		    provide an interactive web portal for theory-related
+		    resources and training materials for cancer
+		    prevention and control reserachers.
+		  </p>
+		  <p>The target audiences for this theory web resource are:</p>
+		  <ul>
+		    <li>Individuals who are new to theory and/or have no
+			prior theoretical training.</li>
+		    <li>Researchers trained in disciplines other than the
+			behavioral sciences who have no prior exposure
+			to health behavior theories</li>
+		    <li>Researchers who would like to augmnet their
+		    theoretical knowledge.</li>
+		  </ul>
+		  <!-- end - replace with the real welcome content -->
+		</div>
+	      </div>
+	    </div>
+	    
+            <div id="slide" class="block eight">
+              <div class="block-inner">
+                <div class="block-content">
+		  
+                <!-- Slideshow with owl-carousel-->
+		  <div id="ps-slider-home" class="owl-carousel owl-theme">
+                    <div class="item slide1">
+		      <img src="../Content/images/slides/160650307.jpg" alt="slide 1">
+		      <div class="caption">
+			<p class="captionDetail">Health Belief Model<br />(HBM)</p>
+			<p class="captionDetailBody">
+			  The theory of attachment suggests
+			  that children are born biologically
+			  predisposed to form attachments
+			  with others as a means of
+			  increasing success of survival</p>
+			<p class="captionButton">
+			  <span class="item-type resource"><span class="element-invisible">Resource</span></span>
+			  <a href="#" role="button">learn more</a>
+			</p>
+		      </div>
+                    </div>
+                    <div class="item slide2">
+		      <img src="../Content/images/slides/165163074.jpg" alt="slide 2">
+                      <div class="caption">
+			<p class="captionDetail">Health Belief Model<br />(HBM)</p>
+			<p class="captionDetailBody">
+			  The theory of attachment suggests
+			  that children are born biologically
+			  predisposed to form attachments
+			  with others as a means of
+			  increasing success of survival</p>
+			<p class="captionButton">
+			  <span class="item-type biblio"><span class="element-invisible">Bibliography</span></span>
+			  <a href="#" role="button">learn more</a>
+			</p>
+		      </div>
+                    </div>
+                    <div class="item slide3">
+		      <img src="../Content/images/slides/460624425.jpg" alt="slide 3">
+                      <div class="caption">
+			<p class="captionDetail">Health Belief Model<br />(HBM)</p>
+			<p class="captionDetailBody">
+			  The theory of attachment suggests
+			  that children are born biologically
+			  predisposed to form attachments
+			  with others as a means of
+			  increasing success of survival</p>
+			<p class="captionButton">
+			  <span class="item-type theory"><span class="element-invisible">Theory</span></span>
+			  <a href="#" role="button">learn more</a>
+			</p>
+		      </div>
+                    </div>
+                    <div class="item slide4">
+		      <img src="../Content/images/slides/465491245.jpg" alt="slide 4">
+                      <div class="caption">
+			<p class="captionDetail">Health Belief Model<br />(HBM)</p>
+			<p class="captionDetailBody">
+			  The theory of attachment suggests
+			  that children are born biologically
+			  predisposed to form attachments
+			  with others as a means of
+			  increasing success of survival</p>
+			<p class="captionButton">
+			  <span class="item-type theory"><span class="element-invisible">Theory</span></span>
+			  <a href="#" role="button">learn more</a>
+			</p>
+		      </div>
+                    </div>
+		  </div>
+		  
+                </div>                
+              </div>
+            </div>
+            
+          </div>          
+        </section>
+        
+        <!-- region content - used for the site main content -->
+        <section id="w-content" class="region">
+          <div class="region-inner clearfix">
+            
+            <div class="block two-third ps-nested">
+              <div class="block-inner">
+		  
+		<div id="theory-model" class="block half">
+		  <div class="block-inner">
+		    <h2 class="block-title">Theories and Models</h2>
+		    <div class="block-content ps-uniHeight">
+		      <!-- replace with the real content -->
+		      <h3>Commonly Used Theories</h3>
+		      <ul class="linkList">
+			<li><a href="#">Health Belief Model (HBM)</a></li>
+			<li><a href="#">Social Cognitive Therapy (SCT)</a></li>
+			<li><a href="#">Theory of Planned Behavior (TPB)</a></li>
+		      </ul>
+		      <h3>Recently Added</h3>
+		      <ul class="linkList">
+			<li><a href="#">Non-Verbal Behavior - 5/29/2015</a></li>
+			<li><a href="#">Mere Exposure Theory - 5/20/2015</a></li>
+			<li><a href="#">Mood-Congruent Judgement - 5/15/2015</a></li>
+		      </ul>
+		      <a href="#" class="theoryIcon">View Theories Timeline</a>
+		      <!-- end - replace with the real content -->
+		    </div>
+		  </div>
+		</div>
+		
+		<div id="train-educ" class="block half">
+		  <div class="block-inner">
+		    <h2 class="block-title">Training & Education</h2>
+		    <div class="block-content ps-uniHeight">
+		      <!-- replace with the real content -->
+		      <ul class="linkList">
+			<li><a href="#">American Theory Institute (ATI)</a><p>
+			    Fuga. Itate sum ipsam, aut dolupta si con
+			    non nesed qui consendantis aut eum net
+			    quosae nobitiis denimaio volessinis aut re
+			    di nonsecu ptaque ratiat harunti assuscia
+			    consequo to moditio reicte velit pe latem.</p></li>
+			<li><a href="#">XYZ Online Theory Database</a><p>
+			    Fuga. Itate sum ipsam, aut dolupta si con
+			   non nesed qui consendantis aut eum net
+			   quosae nobitiis denimaio volessinis aut re
+			   di nonsecu ptaque ratiat harunti assuscia
+			   consequo to moditio reicte velit pe latem.</p></li>
+		      </ul>
+		      <!-- end - replace with the real content -->
+		    </div>
+		  </div>
+		</div>
+                  
+              </div>
+            </div>
+            
+            <div id="biblio" class="block one-third ps-full-portrait clearafter">
+              <div class="block-inner">
+                <h2 class="block-title">Bibliography</h2>
+                <div class="block-content ps-uniHeight ps-portrait-auto">
+		  <!-- replace with the real content -->
+		  <h3>Recently Added Citations</h3>
+		  <ul>
+		    <li>Bouman AC, Ten Cate-Hoek AJ< Ramaekers
+		  BL, Joore MA. Sample Size Estimation for
+		  Non-inferiority Trials: Frequentist Approach
+		  versus Decision Theory Approach. PLoS
+		  One. 2015 Jun; 15, 1(6): e0130531. doi:
+		  <a href="#">10.1371/journal.pone.0130531.eCollection
+		  2015</a>. PubMed PMD: <a href="#">26076354</a></li>
+		  <li>Hopfenberg R. Psychodynamic Group
+		  Psychotherapy. A Behavior Science
+		  Perspective. Int. J Group Psychother.2015
+		  July; 65(3): 332-360. PubMed PMID:
+		  <a href="#">26076203</a></li>
+		  </ul>
+		  <ul class="linkList">
+		    <li><a href="#">Browse full index of additional resources</a></li>
+		  </ul>
+		  <!-- end - replace with the real content -->
+		</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="JsHolder" Runat="Server">
+</asp:Content>
+

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="/public/Home.aspx" title="Home" description="Home page">
+    <siteMapNode url="/public/Resource_details" description="Resource detail" title="Resource Detail" />
+    <siteMapNode url ="/public/Bibliography" description ="Bibliography" title ="Bibliography" >
+    <siteMapNode url ="/public/Citation_details.aspx" description ="Citation detail" title ="Citation detail" />
+      <siteMapNode url="/public/Citation-edit-page.aspx" description="Citation Add/Edit" title="Add Citation" />
+    </siteMapNode>
+
+    <siteMapNode url="/public/browse-theories" title="Theories List"  description="theories List" >
+      <siteMapNode url="/public/theory_details.aspx" description="theories detail" title="Theory Detail" />
+      <siteMapNode url="/public/theory-edit-page.aspx" description="theories List" title="Edit Theory" />
+      <siteMapNode url="/public/theories_Timeline.aspx" description="theories Timeline" title="Theoires Timeline" />
+    </siteMapNode>
+    <siteMapNode url ="/public/Contribute" description ="Contribute" title ="Contribute">
+      <siteMapNode url="/public/theory-edit-page" description="theories List" title="Add Theory" />
+    </siteMapNode>
+    <siteMapNode url="/public/AboutUs" description="About Us" title="About Theories" />
+    <siteMapNode url="/public/ContactUs" description="Contact Us" title="Contact Us" />
+    
+    <siteMapNode url="/public/browse-resources" title="Resources List"  description="Resources List">
+      <siteMapNode url="/public/Resource_details.aspx" description="Resource detail" title="Resource Detail" />
+      <siteMapNode url="/public/resource-edit-page.aspx" description="Resource List" title="Add Resource" />
+
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
