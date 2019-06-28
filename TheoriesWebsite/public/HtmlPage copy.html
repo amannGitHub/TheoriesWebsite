@@ -1,0 +1,95 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            DisableEnableTextBox('#otherDevText');       
+        });
+
+        function DisableEnableTextBox(ctrl1) {
+            $('input:radio').click(function () {
+                $(ctrl1).val("");
+            });
+
+            $(ctrl1).focus(function () {
+                $('input:radio').removeAttr('checked');
+            });
+
+            $('input:checkbox[id^="d"]').click(function () {
+                var ctid = $(this).attr("id");
+                if (ctid == "d3") {
+                    $('input:checkbox[id^="d"]').each(function () {
+                        var ctid1 = $(this).attr("id");
+                        if (ctid1 != "d3") {
+                            $(this).removeAttr('checked');
+                        }
+                    });
+                } else {
+                    $('input:checkbox[id^="d"]').each(function () {
+                        var ctid1 = $(this).attr("id");
+                        if (ctid1 == "d3") {
+                            $(this).removeAttr('checked');
+                        }
+                    });
+                }
+            });
+        }
+
+       
+        //$(document).ready(function () {
+        //    $('input:radio').click(function () {
+        //        $("#otherDevText").val("");
+        //    });
+
+        //    $("#otherDevText").focus(function () {
+        //        $('input:radio').removeAttr('checked');
+        //    });
+        //});
+
+        ////enabledisable(ctrl1, ctrl2)
+        ////{
+        ////    $('input:ctrl2').click(function () {
+        ////        $("#ctrl1").val("");
+        ////    });
+
+        ////    $("#ctrl1").focus(function () {
+        ////        $('input:ctrl2').removeAttr('checked');
+        ////    });
+        ////};
+    </script>
+    <!--<script>
+    $(document).ready(function () {
+        $('input:radio').click(function () {
+            $("#otherDevText").val("");
+        });
+
+        $("#otherDevText").focus(function () {
+            $('input:radio').removeAttr('checked');
+        });
+    });
+    </script>-->
+
+</head>
+
+<body>
+
+
+    <fieldset id="DevGroup_OTHER">
+        <input type="checkbox" id="d1" name="r1" value="d1">dev1 <br />
+        <input type="checkbox" id="d2" name="r1" value="d2">dev2 <br />
+        <input type="checkbox" id="e1" name="r1" value="d3">eev1 <br />
+        <input type="checkbox" id="d3" name="r1" value="d3">dev3 <br />
+    </fieldset>
+    <br />
+    <input id="otherDevText" name="tb1" value="Hello" type="text">
+
+</body>
+</html>
