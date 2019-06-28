@@ -1,95 +1,27 @@
-﻿<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-    <meta charset="utf-8">
-
-    <title>The HTML5 Herald</title>
-    <meta name="description" content="The HTML5 Herald">
-    <meta name="author" content="SitePoint">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            DisableEnableTextBox('#otherDevText');       
-        });
-
-        function DisableEnableTextBox(ctrl1) {
-            $('input:radio').click(function () {
-                $(ctrl1).val("");
-            });
-
-            $(ctrl1).focus(function () {
-                $('input:radio').removeAttr('checked');
-            });
-
-            $('input:checkbox[id^="d"]').click(function () {
-                var ctid = $(this).attr("id");
-                if (ctid == "d3") {
-                    $('input:checkbox[id^="d"]').each(function () {
-                        var ctid1 = $(this).attr("id");
-                        if (ctid1 != "d3") {
-                            $(this).removeAttr('checked');
-                        }
-                    });
-                } else {
-                    $('input:checkbox[id^="d"]').each(function () {
-                        var ctid1 = $(this).attr("id");
-                        if (ctid1 == "d3") {
-                            $(this).removeAttr('checked');
-                        }
-                    });
-                }
-            });
-        }
-
-       
-        //$(document).ready(function () {
-        //    $('input:radio').click(function () {
-        //        $("#otherDevText").val("");
-        //    });
-
-        //    $("#otherDevText").focus(function () {
-        //        $('input:radio').removeAttr('checked');
-        //    });
-        //});
-
-        ////enabledisable(ctrl1, ctrl2)
-        ////{
-        ////    $('input:ctrl2').click(function () {
-        ////        $("#ctrl1").val("");
-        ////    });
-
-        ////    $("#ctrl1").focus(function () {
-        ////        $('input:ctrl2').removeAttr('checked');
-        ////    });
-        ////};
-    </script>
-    <!--<script>
-    $(document).ready(function () {
-        $('input:radio').click(function () {
-            $("#otherDevText").val("");
-        });
-
-        $("#otherDevText").focus(function () {
-            $('input:radio').removeAttr('checked');
-        });
-    });
-    </script>-->
-
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>The HTML5 Herald</title>
+  <meta name="Author" content="SitePoint">
+  <meta name="Description" content="The HTML5 Herald">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 12.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 11.0px '.SF NS Text'; font-kerning: none; background-color: #ffffff}
+  </style>
 </head>
-
 <body>
-
-
-    <fieldset id="DevGroup_OTHER">
-        <input type="checkbox" id="d1" name="r1" value="d1">dev1 <br />
-        <input type="checkbox" id="d2" name="r1" value="d2">dev2 <br />
-        <input type="checkbox" id="e1" name="r1" value="d3">eev1 <br />
-        <input type="checkbox" id="d3" name="r1" value="d3">dev3 <br />
-    </fieldset>
-    <br />
-    <input id="otherDevText" name="tb1" value="Hello" type="text">
-
+<p class="p1"><span class="s1">dev1<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">dev2<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">eev1<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">dev3<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p3"><span class="s2">Hello</span><span class="s1"> Goodbye!</span></p>
 </body>
 </html>
